@@ -1,0 +1,89 @@
+{
+    "sites":[
+        {
+            "site" : "", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "main", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "login", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "signup", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "dashboard", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "dashboard", 
+            "access" : "private", 
+            "role" : "admin"
+        },
+        {
+            "site" : "mystore", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "user", 
+            "access" : "private", 
+            "role" : "user"
+        },
+        {
+            "site" : "admin", 
+            "access" : "private", 
+            "role" : "admin"
+        },
+        {
+            "site" : "users", 
+            "access" : "private", 
+            "role" : "admin"
+        },
+        {
+            "site" : "market", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "items", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "stores", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "store", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "contact", 
+            "access" : "public", 
+            "role" : ""
+        },
+        {
+            "site" : "errors", 
+            "access" : "public", 
+            "role" : ""
+        }
+    ],
+    
+    "default-sites":{
+        "user": "dashboard",
+        "admin": "dashboard"
+    }
+}
