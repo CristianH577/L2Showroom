@@ -134,8 +134,8 @@ class Verify extends SessionController{
                     $mailer->isSMTP();
                     $mailer->Host       = 'smtp.gmail.com';
                     $mailer->SMTPAuth   = true;
-                    $mailer->Username   = 'cristianh212019@gmail.com';
-                    $mailer->Password   = 'toneydkgeecpunku';
+                    $mailer->Username   = 'random@gmail.com';
+                    $mailer->Password   = 'password';
                     $mailer->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;       
                     $mailer->Port       = 465;   
         
