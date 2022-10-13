@@ -1,6 +1,6 @@
 # L2Showroom
 
-##Screenshots
+## Screenshots
 
 <img src="1.PNG" width="300" alt="Screenshot 1" title="Screenshot 1">
 <img src="3.PNG" width="300" alt="Screenshot 2" title="Screenshot 2">
