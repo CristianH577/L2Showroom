@@ -58,7 +58,7 @@ class Contact extends SessionController{
     
                 //Recipients
                 $mailer->setFrom($email, $name);
-                $mailer->addAddress('they13@hotmail.com', 'L2Showroom');
+                $mailer->addAddress('L2Showroom@hotmail.com', 'L2Showroom');
 
                 //Content
                 $mailer->isHTML(true);
