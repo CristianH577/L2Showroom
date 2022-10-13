@@ -37,6 +37,11 @@ nick.onblur = function() {
 document.getElementById("register").onclick = function () {
     Validate();
 }
+document.querySelectorAll('.password svg').forEach(element => {
+    element.onclick = function () {
+        ShowPassword(element.dataset.id);
+    }
+});
 //-------------------- -------------------- --------------------
 
 //validates
@@ -184,7 +189,7 @@ if (!!document.getElementById("random")) {
     }
 }
 function UserRandom() {
-    const num = 2;
+    const num = 3;
     var random = "user" + num;
 
     email.value = random+"@mail.com";

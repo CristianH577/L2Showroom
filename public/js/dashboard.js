@@ -11,7 +11,7 @@ import { ValidateFormatEmail } from './libs/validate-format-mail.js';
 //-------------------- -------------------- --------------------
 
 //events
-document.querySelectorAll(".svg-password").forEach(element => {
+document.querySelectorAll(".password svg").forEach(element => {
   element.onclick = function () {
     ShowPassword(element.dataset.id);
   }

@@ -21,7 +21,7 @@
         <li>
           <ul>
             <li>
-              <input type="text" name="email" id="email" placeholder="Email" title="Email">
+              <input type="text" name="email" id="email" placeholder="Email" title="Email" autocomplete="off">
             </li>
             <li>
               <div class="password">
